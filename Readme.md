@@ -11,3 +11,5 @@ Three different datasets:
 [Movies dataset](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json)
 
 [Kickstarter dataset](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json)
+
+Deployed version can be seen at the following link: https://davorj94.github.io/dynamic-tree-map-d3
