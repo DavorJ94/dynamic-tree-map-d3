@@ -1,0 +1,70 @@
+body {
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#tooltip {
+  position: absolute;
+  min-width: 160px;
+  min-height: 20px;
+  padding: 15px;
+  font-size: 18px;
+  background: black;
+  font-family: Arial;
+  border-radius: 12px;
+  pointer-events: none;
+  color: white;
+  text-align: center;
+}
+#title {
+  font-size: 3em;
+  text-anchor: middle;
+  fill: black;
+}
+#description {
+  font-size: 1.2em;
+  text-anchor: middle;
+  fill: black;
+}
+#treeMap {
+  margin: auto;
+  background-color: white;
+  box-shadow: 2px 1px 20px 6px #000000;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.rectContainer:hover {
+  cursor: pointer;
+}
+#buttons text {
+  font-size: 13px;
+  font-weight: bold;
+}
+.button:hover {
+  cursor: pointer;
+}
+.textSource {
+  font-style: italic;
+  font-size: 12px;
+  text-anchor: end;
+  fill: #464442;
+}
+.linkSource {
+  fill: #464442;
+  text-decoration: none;
+}
+
+.nameAuthor {
+  font-size: 14px;
+  padding-bottom: 30px;
+  text-anchor: end;
+  font-style: italic;
+}
+a {
+  text-decoration: underline;
+  font-weight: bold;
+}
